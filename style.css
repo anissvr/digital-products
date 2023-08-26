@@ -131,3 +131,45 @@
    font-size: 23px;
    margin: 10px 0;
 }
+
+/* ==========footer-area======== */
+footer{
+    background: #0f0f0f;
+    padding: 40px 0;
+    color: white;
+}
+.f-content-area{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    
+}
+
+.f-box1{
+    width: 300px;
+    padding: 0 10px;
+}
+.f-box h4{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.f-Useful-Links a, .f-Supports a{
+    display: block;
+    margin: 9px 0;
+    text-decoration: none;
+    color: white;
+}
+.f-logo{
+    padding: 10px 15px;
+}
+.f-logo img{
+   margin-bottom: 10px ;
+}
+.copy{
+    text-align: center;
+    margin: 10px ;
+}
