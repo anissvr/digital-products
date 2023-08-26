@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .menu-area{
     width: 100%;
@@ -31,9 +33,9 @@
     
 }
 
-/* =========Banare-area========= */
+/* =========Bannar-area========= */
 .bannar-area{
-    width: 100vw;
+    width: 98.77vw;
     height: 90vh;
     background-image: url(images/background.png);
     background-color: #1e1e1e;
@@ -42,21 +44,21 @@
     align-items: center;
 }
 .heading-area{
-    width: 41%;
+    width: 40%;
     color: rgb(255, 255, 255);
 }
 .heading-area h1{
-    font-size: 55px;
+    font-size: 50px;
     margin: 20px 0;
 }
 .heading-area p{
     font-size: 18px;
     margin: 20px 0;
 }
-.heading-area a{
+.btn{
    text-decoration: none;
    display: inline-block;
-   padding: 15px 25px;
+   padding: 10px 25px;
    background-color: #ff0000;
    margin: 15px 0;
    color: white;
@@ -65,4 +67,32 @@
 }
 .img-area img{
     width:320px;
+}
+
+/*======= about-us-area ==========*/
+.about-area{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.about-area h2{
+    font-size: 50px;
+    text-align: center;
+    /* margin: 30px 0; */
+}
+.contant-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    
+}
+
+.text-area{
+    width: 40%;
+    
+}
+.text-area h4{
+   font-size: 25px;
+   margin: 20px 0;
+
 }
