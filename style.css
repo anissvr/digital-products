@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-area{
+    width: 100%;
+    background-color: #424141;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 15px;
+}
+.logo img{
+    width: 100px;
+}
+.menu ul{
+    display: flex; 
+    
+}
+.menu ul li{
+    list-style: none;
+    /* margin-right: 30px; */
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding:0 20px;
+    
+}
